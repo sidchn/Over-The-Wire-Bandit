@@ -59,7 +59,7 @@ level 10	base64  -d data.txt
 level 11	cat data.txt 
 		Gur cnffjbeq vf 5Gr8L4qetPEsPk8htqjhRK8XSP6x2RHh
 		
-		```
+	
 		python3
 	Python 3.5.3 (default, Sep 27 2018, 17:25:39) 
 	[GCC 6.3.0 20170516] on linux
@@ -69,8 +69,8 @@ level 11	cat data.txt
 	>>> passwd
 	'The password is 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu'
 	>>> 
-		---
-		```
+---
+	
 level 12	after a lot of mv and gunziping,bunziping and tar
 		The password is 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
 
