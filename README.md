@@ -1,9 +1,9 @@
 
 # Over-The-Wire-Bandit-
 Over The Wire Bandit wargames walkthrough
-
+```
 ssh -p 2220 bandit.labs.overthewire.org -l bandit0
-
+```
 level 0      boJ9jbbUNNfktd78OOpsqOltutMc3MY1
 level 1
 		cat /home/bandit1/-
@@ -24,18 +24,21 @@ total 12
 bandit3@bandit:~/inhere$ cat .hidden
 pIwrPrtPN36QITSp3EQaw936yaFoFgAB
 
-level 4		cat /home/bandit4/inhere/-file07
+level 4		```
+		cat /home/bandit4/inhere/-file07
 		koReBOKuIDDepwhWk7jZC0RTdopnAYKh
- 
+ 		```
 
-level 5		ls -las
+level 5		```
+		ls -las
 		bandit5@bandit:~/inhere/maybehere07$ cat .file2
 		DXjZPULLxYr17uwoI01bNLQbtFemEgo7
-
+		```
+		```
 level 6		find /  -user bandit7 -group bandit6 -size 33c
 		cat /var/lib/dpkg/info/bandit7.password
 		HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
-
+		```
 level 7		cat data.txt |grep millionth
 		millionth       cvX2JJa4CFALtqS87jk27qwqGhBM9plV
 	
@@ -50,6 +53,7 @@ level 10	base64  -d data.txt
 
 level 11	cat data.txt 
 		Gur cnffjbeq vf 5Gr8L4qetPEsPk8htqjhRK8XSP6x2RHh
+		```
 		python3
 	Python 3.5.3 (default, Sep 27 2018, 17:25:39) 
 	[GCC 6.3.0 20170516] on linux
@@ -59,7 +63,7 @@ level 11	cat data.txt
 	>>> passwd
 	'The password is 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu'
 	>>> 
-
+		```
 level 12	after a lot of mv and gunziping,bunziping and tar
 		The password is 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
 
@@ -69,12 +73,12 @@ level 13	ls
 		4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
 
 level 14-15
----
+```
 nc localhost 30000
 4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
 Correct!
 BfMYroe26WYalil77FoDi9qh59eK5xNr
----
+```
 
 
 level 15-16
