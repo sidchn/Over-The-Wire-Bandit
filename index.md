@@ -179,23 +179,25 @@ level 22 -> 23
 cd  /etc/cron.d
 ls
 cat /usr/bin/cronjob_bandit23.sh
+	
 	#!/bin/bash
-
 	myname=$(whoami)	
 	mytarget=$(echo I am user $myname | md5sum | cut -d ' ' -f 1)
 
 	echo "Copying passwordfile /etc/bandit_pass/$myname to /tmp/$mytarget"
 
 	cat /etc/bandit_pass/$myname > /tmp/$mytarget
+	
 In this script the myname variable uses whoami which will mean badnit22 but we want for bandit23, it turns out we cant write and execute our own script
 so modifying and executing the script isnt an option but these scripts are run periodically so that means we need the file which contains the password for bandit23
 the variable mytarget is the file but currently the mytarget variable is equal to bandit22's password file and we want for bandit23,
- In this -   echo I am user $myname | md5sum | cut -d ' ' -f 1
-replace $myname to bandit23
-echo I am user bandit23 | md5sum | cut -d ' ' -f 1
-8ca319486bfbbc3663ea0fbe81326349 <- this will be the file which contains the password for bandit23 so lets cat it out
-cat 8ca319486bfbbc3663ea0fbe81326349
-jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n <-- This is the password for bandit23 hurray we did it!
+	
+	echo I am user $myname | md5sum | cut -d ' ' -f 1
+	replace $myname to bandit23
+	echo I am user bandit23 | md5sum | cut -d ' ' -f 1
+	8ca319486bfbbc3663ea0fbe81326349 <- this will be the file which contains the password for bandit23 so lets cat it out
+	cat 8ca319486bfbbc3663ea0fbe81326349
+	jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n <-- This is the password for bandit23 hurray we did it!
+	---
 
----
 
