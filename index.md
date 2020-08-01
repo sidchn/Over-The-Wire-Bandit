@@ -37,9 +37,9 @@ level 5
 		bandit5@bandit:~/inhere/maybehere07$ cat .file2
 		DXjZPULLxYr17uwoI01bNLQbtFemEgo7
 		```
-		
+level 6
 		```
-level 6		find /  -user bandit7 -group bandit6 -size 33c
+		find /  -user bandit7 -group bandit6 -size 33c
 		cat /var/lib/dpkg/info/bandit7.password
 		HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
 		```
