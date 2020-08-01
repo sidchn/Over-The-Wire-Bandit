@@ -27,17 +27,17 @@ pIwrPrtPN36QITSp3EQaw936yaFoFgAB
 ```
 
 level 4		
-		```
+		
 		cat /home/bandit4/inhere/-file07
 		koReBOKuIDDepwhWk7jZC0RTdopnAYKh
- 		```
+ 	
 
 level 5		
-		```
+		
 		ls -las
 		bandit5@bandit:~/inhere/maybehere07$ cat .file2
 		DXjZPULLxYr17uwoI01bNLQbtFemEgo7
-		```
+		
 
 level 6
 		```
