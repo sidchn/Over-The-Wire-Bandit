@@ -59,8 +59,7 @@ level 10	base64  -d data.txt
 level 11	cat data.txt 
 		Gur cnffjbeq vf 5Gr8L4qetPEsPk8htqjhRK8XSP6x2RHh
 		
-	
-		python3
+	python3
 	Python 3.5.3 (default, Sep 27 2018, 17:25:39) 
 	[GCC 6.3.0 20170516] on linux
 	Type "help", "copyright", "credits" or "license" for more information.
@@ -197,4 +196,5 @@ echo I am user bandit23 | md5sum | cut -d ' ' -f 1
 cat 8ca319486bfbbc3663ea0fbe81326349
 jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n <-- This is the password for bandit23 hurray we did it!
 
+---
 
