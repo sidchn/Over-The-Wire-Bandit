@@ -5,6 +5,7 @@ Over The Wire Bandit wargames walkthrough
 ssh -p 2220 bandit.labs.overthewire.org -l bandit0
 ```
 level 0      boJ9jbbUNNfktd78OOpsqOltutMc3MY1
+
 level 1
 		cat /home/bandit1/-
 		CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
@@ -172,7 +173,7 @@ this file ->  t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
 
 cd /tmp
 cat t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
-Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI    <- yes thats the password for level 22 hurray!
+Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI    <- yes thats the password for level 22 !
 
 level 22 -> 23
 
@@ -198,6 +199,6 @@ the variable mytarget is the file but currently the mytarget variable is equal t
 	8ca319486bfbbc3663ea0fbe81326349 <- this will be the file which contains the password for bandit23 so lets cat it out
 	cat 8ca319486bfbbc3663ea0fbe81326349
 	jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n <-- This is the password for bandit23 hurray we did it!
-	---
+	
 
 
