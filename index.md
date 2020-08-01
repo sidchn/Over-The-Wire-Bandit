@@ -28,23 +28,23 @@ pIwrPrtPN36QITSp3EQaw936yaFoFgAB
 
 level 4		
 		
-		cat /home/bandit4/inhere/-file07
-		koReBOKuIDDepwhWk7jZC0RTdopnAYKh
+	cat /home/bandit4/inhere/-file07
+	koReBOKuIDDepwhWk7jZC0RTdopnAYKh
  	
 
 level 5		
 		
-		ls -las
-		bandit5@bandit:~/inhere/maybehere07$ cat .file2
-		DXjZPULLxYr17uwoI01bNLQbtFemEgo7
+	ls -las
+	bandit5@bandit:~/inhere/maybehere07$ cat .file2
+	DXjZPULLxYr17uwoI01bNLQbtFemEgo7
 		
 
 level 6
-		```
-		find /  -user bandit7 -group bandit6 -size 33c
-		cat /var/lib/dpkg/info/bandit7.password
-		HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
-		```
+		
+	find /  -user bandit7 -group bandit6 -size 33c
+	cat /var/lib/dpkg/info/bandit7.password
+	HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
+	
 		
 level 7		cat data.txt |grep millionth
 		millionth       cvX2JJa4CFALtqS87jk27qwqGhBM9plV
