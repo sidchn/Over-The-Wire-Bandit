@@ -13,7 +13,7 @@ level 2		cat spaces\ in\ this\ filename
 		UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
 
 level 3
-
+```
 cd inhere/
 bandit3@bandit:~/inhere$ ls
 bandit3@bandit:~/inhere$ ls -las
@@ -23,6 +23,7 @@ total 12
 4 -rw-r----- 1 bandit4 bandit3   33 Oct 16  2018 .hidden
 bandit3@bandit:~/inhere$ cat .hidden
 pIwrPrtPN36QITSp3EQaw936yaFoFgAB
+```
 
 level 4		```
 		cat /home/bandit4/inhere/-file07
@@ -38,7 +39,8 @@ level 5		```
 level 6		find /  -user bandit7 -group bandit6 -size 33c
 		cat /var/lib/dpkg/info/bandit7.password
 		HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
-		```
+	
+	```
 level 7		cat data.txt |grep millionth
 		millionth       cvX2JJa4CFALtqS87jk27qwqGhBM9plV
 	
