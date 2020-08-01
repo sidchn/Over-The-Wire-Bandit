@@ -37,6 +37,7 @@ level 5
 		bandit5@bandit:~/inhere/maybehere07$ cat .file2
 		DXjZPULLxYr17uwoI01bNLQbtFemEgo7
 		```
+
 level 6
 		```
 		find /  -user bandit7 -group bandit6 -size 33c
