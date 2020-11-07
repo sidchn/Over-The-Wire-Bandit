@@ -1,5 +1,5 @@
 
-# Over-The-Wire-Bandit-
+# Over-The-Wire-Bandit
 Over The Wire Bandit wargames walkthrough
 ```
 ssh -p 2220 bandit.labs.overthewire.org -l bandit0
